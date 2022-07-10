@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "ゆるゆる山歩き"
+title = "社会人サークル ゆるゆる山歩き"
 
 # Language settings
 contentDir = "content/ja"
@@ -181,37 +181,39 @@ enable = false
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
+# エンドユーザー関連のリンク。これらは、フッターの左側と、ある場合はコミュニティページに表示されます。
 [[params.links.user]]
-  name = "User mailing list"
-  url = "https://example.org/mail"
+  name = "メーリングリスト"
+  url = "https://groups.google.com/u/1/g/yuruyamawk_japan"
   icon = "fa fa-envelope"
-  desc = "Discussion and help from your fellow users"
+  desc = "当サイトに関するメーリングリスト"
 [[params.links.user]]
   name ="Twitter"
-  url = "https://example.org/twitter"
+  url = "https://twitter.com/yuruyamawk"
   icon = "fab fa-twitter"
-  desc = "Follow us on Twitter to get the latest news!"
+  desc = "Twitterはこちら"
 [[params.links.user]]
-  name = "Stack Overflow"
-  url = "https://example.org/stack"
+  name = "LINEオープンチャット"
+  url = "https://line.me/ti/g2/NtSLqLzXLOQeRKYLuMdzf-FQosq2xyHpjfOUQQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
   icon = "fab fa-stack-overflow"
-  desc = "Practical questions and curated answers"
+  desc = "ゆる山歩き 初心者向け"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/google/docsy"
+  url = "https://github.com/yuruyamawk/"
   icon = "fab fa-github"
-  desc = "Development takes place here!"
+  desc = "このWebサイトのソースコード"
 [[params.links.developer]]
   name = "Slack"
-  url = "https://example.org/slack"
+  url = "https://yuruyamawk.slack.com"
   icon = "fab fa-slack"
-  desc = "Chat with other project developers"
-[[params.links.developer]]
-  name = "Developer mailing list"
-  url = "https://example.org/mail"
-  icon = "fa fa-envelope"
-  desc = "Discuss development issues around the project"
+  desc = "Slackはこちら"
+
+# [[params.links.developer]]
+#  name = "Developer mailing list"
+#  url = "https://example.org/mail"
+#  icon = "fa fa-envelope"
+#  desc = "Discuss development issues around the project"
 
 # hugo module configuration
 
